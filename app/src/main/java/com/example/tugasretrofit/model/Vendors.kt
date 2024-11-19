@@ -10,6 +10,8 @@ data class Vendors(
     @SerializedName("category")
     val category: String,
     @SerializedName("description")
-    val description: String
+    val description: String,
+
+    var isFavorite: Boolean = false
 
 )
